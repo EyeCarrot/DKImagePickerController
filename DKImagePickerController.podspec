@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.author        = { "Bannings" => "zhangao0086@gmail.com" }
   s.platform      = :ios, "8.0"
   s.source        = { :git => "https://github.com/EyeCarrot/DKImagePickerController.git", 
-                     :tag => s.version.to_s }
+                     :tag => s.version }
   s.source_files  = "DKImagePickerController/**/*.{h,swift}"
 
   s.resource      = "DKImagePickerController/DKImagePickerController.bundle"
